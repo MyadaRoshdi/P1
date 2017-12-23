@@ -79,24 +79,28 @@ The code for this step is contained in the code cell In[4],in  lines#65 through 
 Here's 2- examples of  images before and after the pipeline. 
 
 **Example 1:**
+
 ![test1_before_pipeline img][image4]
 ![test1_after_pipeline img][image5]
 
 **Example 2:**
+
 ![test2_before_pipeline img][image6]
 ![test2_after_pipeline img][image7]
 
+**And finally, apply on test Videos**
+
+Here's a [link to my 1st video result](https://github.com/MyadaRoshdi/P1/blob/master/test_videos_output/solidWhiteRight.mp4)
+
+Here's a [link to my 2nd video result](https://github.com/MyadaRoshdi/P1/blob/master/test_videos_output/solidYellowLeft.mp4)
 
 ### 2. Identify potential shortcomings with your current pipeline
 
-
-One potential shortcoming would be what would happen when ... 
-
-Another shortcoming could be ...
+This pipeline is only tested on the testing images and videos supported, so it might fail when tested on images taken in differenct conditions (e.g. different lighting conditions ( night, vogue ..etc), rains, snow, crossing pedestrians, shadows, sharp edges, faded lane lines...etc).
 
 
 ### 3. Suggest possible improvements to your pipeline
 
-A possible improvement would be to ...
-
-Another potential improvement could be to ...
+1* I'd suggest as first step to do Camera calibration and undistortion of all images.
+2* Capture myself more images to test over on different conditions.
+1* Instead of using the current algorthim, I can invest more time to get a better algorithm that divide the image as sliding windows, where lines detected from bottom windows could be used as a starting point fo the next window.
