@@ -23,6 +23,8 @@ The goals / steps of this project are the following:
 
 ### Reflection
 
+first, here is an example of original image before applying any modifications:
+![test1_img][image4]
 ### 1. Describe your pipeline. As part of the description, explain how you modified the draw_lines() function.
 
 My pipeline consisted of 5 steps:
