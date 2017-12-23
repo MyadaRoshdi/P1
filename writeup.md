@@ -102,5 +102,7 @@ This pipeline is only tested on the testing images and videos supported, so it m
 ### 3. Suggest possible improvements to your pipeline
 
 1* I'd suggest as first step to do Camera calibration and undistortion of all images.
+
 2* Capture myself more images to test over on different conditions.
-1* Instead of using the current algorthim, I can invest more time to get a better algorithm that divide the image as sliding windows, where lines detected from bottom windows could be used as a starting point fo the next window.
+
+3* Instead of using the current algorthim, I can invest more time to get a better algorithm that divide the image as sliding windows, where lines detected from bottom windows could be used as a starting point fo the next window.
