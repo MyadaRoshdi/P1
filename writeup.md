@@ -57,7 +57,7 @@ Here's an example of my output for this step.
 
 ![HoughTransform_img][image3]
 
-**d) Draw 2-continous lines for left and right lane-lines**
+**e) Draw 2-continous lines for left and right lane-lines**
 In the above Image, I already drew all the lines found from Hough through the selected region, but now I want only two lines. One on the left and one on the right. First, I will the info that the slope for left line is negative and the slope for the right line is positive. (When x increase and y increase, the slope is positive). The used Algorithm is :
 
   1) Loop though all the lines and find all the slopes
